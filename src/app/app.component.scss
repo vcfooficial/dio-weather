@@ -1,0 +1,16 @@
+.container-fluid {
+  height: calc(100vh - 56px);
+
+  > .row {
+    height: 100%;
+  }
+}
+.hov {
+  opacity: 90%;
+  margin-top: 90%;
+  transition: 0.5s;
+}
+.hov:hover {
+  opacity: 100%;
+  margin-top: 85%;
+}

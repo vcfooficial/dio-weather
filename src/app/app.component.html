@@ -1,0 +1,38 @@
+<!--Desafio de criar projeto para consulta de previsão do tempo-->
+<!--      Victor Cainã - Digital Innovation One       -->
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand">VF - Previsão do tempo</a>
+
+  <div id="navbar-portal-outlet"></div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 bg-light border-right">
+      <ul class="nav flex-column">
+        <li class="nav-item" style="margin-top:10%;">
+          <a class="nav-link" routerLink="/">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/bookmarks">Favoritos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about">Sobre</a>
+        </li>
+        <a href="http://www.digitalinnovationone.com" title="Conheça a DIO">
+      <div class="hov">
+      <li>
+      
+      <img src="../assets/dio.png">
+   
+  </li>
+  </div>
+</a>
+    </ul>
+    </div>
+
+    <div class="col-sm-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
